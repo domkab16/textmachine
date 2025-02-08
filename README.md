@@ -5,6 +5,16 @@ Interfacing with the modem directly using AT commands, this software can send an
 
 The SIM card is polled every 30 seconds and messages are stored in the database
 
+---------------------
+
+# Requirements
+
+This script requires the following python modules
+
+ - serial
+ - flask
+ - sqlite3
+
 ----------------------
 
 # API Endpoints
